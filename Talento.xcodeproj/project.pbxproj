@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B53107EB1A7017C5007068CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B53107EA1A7017C5007068CF /* main.m */; };
+		B53107EE1A7017C5007068CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53107ED1A7017C5007068CF /* AppDelegate.m */; };
+		B53107F11A7017C5007068CF /* Talento.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B53107EF1A7017C5007068CF /* Talento.xcdatamodeld */; };
+		B53107F41A7017C5007068CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53107F31A7017C5007068CF /* ViewController.m */; };
+		B53107F71A7017C5007068CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53107F51A7017C5007068CF /* Main.storyboard */; };
+		B53107F91A7017C5007068CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53107F81A7017C5007068CF /* Images.xcassets */; };
+		B53107FC1A7017C5007068CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53107FA1A7017C5007068CF /* LaunchScreen.xib */; };
+		B53108081A7017C5007068CF /* TalentoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53108071A7017C5007068CF /* TalentoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B53108021A7017C5007068CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53107DD1A7017C4007068CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53107E41A7017C5007068CF;
+			remoteInfo = Talento;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B53107E51A7017C5007068CF /* Talento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Talento.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53107E91A7017C5007068CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53107EA1A7017C5007068CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B53107EC1A7017C5007068CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B53107ED1A7017C5007068CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B53107F01A7017C5007068CF /* Talento.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Talento.xcdatamodel; sourceTree = "<group>"; };
+		B53107F21A7017C5007068CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B53107F31A7017C5007068CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B53107F61A7017C5007068CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B53107F81A7017C5007068CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B53107FB1A7017C5007068CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B53108011A7017C5007068CF /* TalentoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalentoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53108061A7017C5007068CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53108071A7017C5007068CF /* TalentoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalentoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B53107E21A7017C5007068CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53107FE1A7017C5007068CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B53107DC1A7017C4007068CF = {
+			isa = PBXGroup;
+			children = (
+				B53107E71A7017C5007068CF /* Talento */,
+				B53108041A7017C5007068CF /* TalentoTests */,
+				B53107E61A7017C5007068CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B53107E61A7017C5007068CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B53107E51A7017C5007068CF /* Talento.app */,
+				B53108011A7017C5007068CF /* TalentoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B53107E71A7017C5007068CF /* Talento */ = {
+			isa = PBXGroup;
+			children = (
+				B53107EC1A7017C5007068CF /* AppDelegate.h */,
+				B53107ED1A7017C5007068CF /* AppDelegate.m */,
+				B53107F21A7017C5007068CF /* ViewController.h */,
+				B53107F31A7017C5007068CF /* ViewController.m */,
+				B53107F51A7017C5007068CF /* Main.storyboard */,
+				B53107F81A7017C5007068CF /* Images.xcassets */,
+				B53107FA1A7017C5007068CF /* LaunchScreen.xib */,
+				B53107EF1A7017C5007068CF /* Talento.xcdatamodeld */,
+				B53107E81A7017C5007068CF /* Supporting Files */,
+			);
+			path = Talento;
+			sourceTree = "<group>";
+		};
+		B53107E81A7017C5007068CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B53107E91A7017C5007068CF /* Info.plist */,
+				B53107EA1A7017C5007068CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B53108041A7017C5007068CF /* TalentoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B53108071A7017C5007068CF /* TalentoTests.m */,
+				B53108051A7017C5007068CF /* Supporting Files */,
+			);
+			path = TalentoTests;
+			sourceTree = "<group>";
+		};
+		B53108051A7017C5007068CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B53108061A7017C5007068CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B53107E41A7017C5007068CF /* Talento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B531080B1A7017C5007068CF /* Build configuration list for PBXNativeTarget "Talento" */;
+			buildPhases = (
+				B53107E11A7017C5007068CF /* Sources */,
+				B53107E21A7017C5007068CF /* Frameworks */,
+				B53107E31A7017C5007068CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Talento;
+			productName = Talento;
+			productReference = B53107E51A7017C5007068CF /* Talento.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B53108001A7017C5007068CF /* TalentoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B531080E1A7017C5007068CF /* Build configuration list for PBXNativeTarget "TalentoTests" */;
+			buildPhases = (
+				B53107FD1A7017C5007068CF /* Sources */,
+				B53107FE1A7017C5007068CF /* Frameworks */,
+				B53107FF1A7017C5007068CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B53108031A7017C5007068CF /* PBXTargetDependency */,
+			);
+			name = TalentoTests;
+			productName = TalentoTests;
+			productReference = B53108011A7017C5007068CF /* TalentoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B53107DD1A7017C4007068CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Diego Andrade";
+				TargetAttributes = {
+					B53107E41A7017C5007068CF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B53108001A7017C5007068CF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B53107E41A7017C5007068CF;
+					};
+				};
+			};
+			buildConfigurationList = B53107E01A7017C4007068CF /* Build configuration list for PBXProject "Talento" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B53107DC1A7017C4007068CF;
+			productRefGroup = B53107E61A7017C5007068CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B53107E41A7017C5007068CF /* Talento */,
+				B53108001A7017C5007068CF /* TalentoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B53107E31A7017C5007068CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53107F71A7017C5007068CF /* Main.storyboard in Resources */,
+				B53107FC1A7017C5007068CF /* LaunchScreen.xib in Resources */,
+				B53107F91A7017C5007068CF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53107FF1A7017C5007068CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B53107E11A7017C5007068CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53107F11A7017C5007068CF /* Talento.xcdatamodeld in Sources */,
+				B53107EE1A7017C5007068CF /* AppDelegate.m in Sources */,
+				B53107F41A7017C5007068CF /* ViewController.m in Sources */,
+				B53107EB1A7017C5007068CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53107FD1A7017C5007068CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53108081A7017C5007068CF /* TalentoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B53108031A7017C5007068CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B53107E41A7017C5007068CF /* Talento */;
+			targetProxy = B53108021A7017C5007068CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B53107F51A7017C5007068CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53107F61A7017C5007068CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B53107FA1A7017C5007068CF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53107FB1A7017C5007068CF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B53108091A7017C5007068CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B531080A1A7017C5007068CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B531080C1A7017C5007068CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Talento/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B531080D1A7017C5007068CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Talento/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B531080F1A7017C5007068CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TalentoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Talento.app/Talento";
+			};
+			name = Debug;
+		};
+		B53108101A7017C5007068CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TalentoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Talento.app/Talento";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B53107E01A7017C4007068CF /* Build configuration list for PBXProject "Talento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53108091A7017C5007068CF /* Debug */,
+				B531080A1A7017C5007068CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B531080B1A7017C5007068CF /* Build configuration list for PBXNativeTarget "Talento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B531080C1A7017C5007068CF /* Debug */,
+				B531080D1A7017C5007068CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B531080E1A7017C5007068CF /* Build configuration list for PBXNativeTarget "TalentoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B531080F1A7017C5007068CF /* Debug */,
+				B53108101A7017C5007068CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B53107EF1A7017C5007068CF /* Talento.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B53107F01A7017C5007068CF /* Talento.xcdatamodel */,
+			);
+			currentVersion = B53107F01A7017C5007068CF /* Talento.xcdatamodel */;
+			path = Talento.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B53107DD1A7017C4007068CF /* Project object */;
+}
