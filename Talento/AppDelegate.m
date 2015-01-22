@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WeekListTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    WeekListTableViewController *wltvc = [[WeekListTableViewController alloc]init];
+    wltvc.managedObjectContext = self.managedObjectContext;
+    
     return YES;
 }
 
