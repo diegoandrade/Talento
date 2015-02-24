@@ -68,6 +68,18 @@
         
         awvc.currentWeek = newWeek;
     }
+   if([[segue identifier] isEqualToString:@"showItemsView"]){
+       
+       //If not AddItem use TalentoTableView
+       TalentoTableViewController *aivc = (TalentoTableViewController *) [segue destinationViewController];
+      // aivc.delegate = self;
+       
+       Item *newItem = (Item *) [NSEntityDescription insertNewObjectForEntityForName:@"Item" inManagedObjectContext:[self managedObjectContext]];
+       
+       aivc.currentItem = newItem;
+    }
+    
+    
 }
 
 

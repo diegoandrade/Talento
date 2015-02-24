@@ -22,6 +22,8 @@
 		B586B5C11A709769008E81F6 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = B586B5C01A709769008E81F6 /* Image.m */; };
 		B586B5C41A709769008E81F6 /* Time.m in Sources */ = {isa = PBXBuildFile; fileRef = B586B5C31A709769008E81F6 /* Time.m */; };
 		B5C3B4501A719AEE00C3B7CC /* Week.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C3B44F1A719AEE00C3B7CC /* Week.m */; };
+		B5C3B4561A71AD5400C3B7CC /* TalentoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C3B4551A71AD5400C3B7CC /* TalentoTableViewController.m */; };
+		B5C499CC1A71B4DF00D6D9E9 /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C499CB1A71B4DF00D6D9E9 /* AddItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,10 @@
 		B586B5C31A709769008E81F6 /* Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Time.m; path = Schema/Time.m; sourceTree = "<group>"; };
 		B5C3B44E1A719AEE00C3B7CC /* Week.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Week.h; path = Schema/Week.h; sourceTree = "<group>"; };
 		B5C3B44F1A719AEE00C3B7CC /* Week.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Week.m; path = Schema/Week.m; sourceTree = "<group>"; };
+		B5C3B4541A71AD5400C3B7CC /* TalentoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TalentoTableViewController.h; path = TableView/TalentoTableViewController.h; sourceTree = "<group>"; };
+		B5C3B4551A71AD5400C3B7CC /* TalentoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TalentoTableViewController.m; path = TableView/TalentoTableViewController.m; sourceTree = "<group>"; };
+		B5C499CA1A71B4DF00D6D9E9 /* AddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddItemViewController.h; path = ViewController/AddItemViewController.h; sourceTree = "<group>"; };
+		B5C499CB1A71B4DF00D6D9E9 /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddItemViewController.m; path = ViewController/AddItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +111,15 @@
 		B53107E71A7017C5007068CF /* Talento */ = {
 			isa = PBXGroup;
 			children = (
+				B5C3B4541A71AD5400C3B7CC /* TalentoTableViewController.h */,
+				B5C3B4551A71AD5400C3B7CC /* TalentoTableViewController.m */,
 				B53107EC1A7017C5007068CF /* AppDelegate.h */,
 				B53107ED1A7017C5007068CF /* AppDelegate.m */,
 				B53107F81A7017C5007068CF /* Images.xcassets */,
 				B53107FA1A7017C5007068CF /* LaunchScreen.xib */,
 				B53108111A701866007068CF /* MainStoryboard.storyboard */,
+				B5C499CA1A71B4DF00D6D9E9 /* AddItemViewController.h */,
+				B5C499CB1A71B4DF00D6D9E9 /* AddItemViewController.m */,
 				B531083D1A706A23007068CF /* AddWeekViewController.h */,
 				B531083E1A706A23007068CF /* AddWeekViewController.m */,
 				B53107EF1A7017C5007068CF /* Talento.xcdatamodeld */,
@@ -266,7 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B586B5C41A709769008E81F6 /* Time.m in Sources */,
+				B5C499CC1A71B4DF00D6D9E9 /* AddItemViewController.m in Sources */,
 				B586B5BE1A709769008E81F6 /* Item.m in Sources */,
+				B5C3B4561A71AD5400C3B7CC /* TalentoTableViewController.m in Sources */,
 				B531083F1A706A23007068CF /* AddWeekViewController.m in Sources */,
 				B53107F11A7017C5007068CF /* Talento.xcdatamodeld in Sources */,
 				B53107EE1A7017C5007068CF /* AppDelegate.m in Sources */,

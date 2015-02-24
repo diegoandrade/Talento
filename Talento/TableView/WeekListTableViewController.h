@@ -11,8 +11,9 @@
 #import "Week.h"
 #import "AddWeekViewController.h"
 #import "AppDelegate.h"
+#import "TalentoTableViewController.h"
 
-@interface WeekListTableViewController : UITableViewController <AddWeekViewControllerDelegate,NSFetchedResultsControllerDelegate>
+@interface WeekListTableViewController : UITableViewController <AddItemViewControllerDelegate, AddWeekViewControllerDelegate,NSFetchedResultsControllerDelegate>
 
 @property (nonatomic,strong) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic,strong) NSFetchedResultsController *fetchedResultsController;
